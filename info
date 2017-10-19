@@ -1,0 +1,49 @@
+Tworzenie wirtula Ubuntu
+Guest addition
+z iso katalogu VBox na windows
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+
+
+instalacja git kontroli wersji
+apt-get install git
+
+#w katalogu do synchronizacji
+#inicjalizacja
+git init
+
+#połączenie z kontem github
+git config --global user.email "@.pl"
+git config --global user.name ""
+
+#spr. statusu
+git status
+
+#dodanie do rpozytorium
+git add <nazwa pliku do sledzenia>
+git add .
+. - wszystkie zmiany w katalogu
+
+git commit -m <komentarz dokonanej zmiany wykonanej za pomocą add>
+git commit -m "tworzenie nowego pliku"
+
+#spr zmian
+git log
+
+#modyfikacja pliku test.txt
+%dodanie zmiany
+
+#skomentowanie i zapisanie zmian
+git add .
+git commit -m "pierwsza zmiana"
+
+#spr.
+git log
+
+#modyfikacja pliku test.txt
+#skomentowanie i zapisanie zmian
+git add .
+git commit "druga zmiana"
+
+#Github
+utworznie nowego repozytarium
+do
